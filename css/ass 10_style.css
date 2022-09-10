@@ -1,0 +1,69 @@
+body{
+    background-color: #262936;
+}
+
+.navbar{
+    border-bottom-color: red;
+}
+
+
+section{
+    margin: 8% 0%;
+    height: 70%;
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+}
+
+.searchInput::placeholder{
+    color: wheat !important;
+}
+
+nav li a{
+    transition: 1s !important ;
+    border: 1px solid red ;
+    border-radius: 5px;
+}
+nav li a:hover{
+    color: white!important;
+    background-color: crimson;
+    border-color:  red ;
+}
+
+footer i{
+    font-size: 25px;
+}
+
+footer i:hover{
+    color: crimson !important;
+}
+
+button{
+    width: 10% !important;
+}
+
+
+form {
+
+    width: 50%;
+    margin-left: 8%;
+    height: 40px;
+    border:1px solid grey;
+    border-radius: 5px;
+      
+}
+
+.input{
+    border: none;
+}
+.input:focus{
+    outline: none; 
+}
+
+.Subscribe{
+    border-radius: 5px;
+}
+.Subscribe:hover{
+    background-color: blue!important;
+}
+
+
